@@ -1,0 +1,10 @@
+version: 2
+
+jobs:
+  check-package:
+    docker:
+      - image: circleci/node:13.3.0
+    steps:
+      - checkout
+      - run: npm ci --ignore-scripts
+      - run: npm run test

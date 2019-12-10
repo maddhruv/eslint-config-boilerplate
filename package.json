@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-boilerplate",
+  "version": "0.1.0",
+  "description": "Eslint Sharable Config Boilerplate",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 8"
+  },
+  "scripts": {
+    "test": "package-ok"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddhruv/eslint-config-boilerplate.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "boilerplate",
+    "eslint-config",
+    "sharable-config",
+    "eslint-boilerplate"
+  ],
+  "author": "Dhruv Jain <dhruvjainpenny@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maddhruv/eslint-config-boilerplate/issues"
+  },
+  "homepage": "https://github.com/maddhruv/eslint-config-boilerplate#readme",
+  "devDependencies": {
+    "prepublish-ok": "^0.5.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 4"
+  }
+}
