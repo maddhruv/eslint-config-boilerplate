@@ -8,3 +8,9 @@ jobs:
       - checkout
       - run: npm ci --ignore-scripts
       - run: npm run test
+
+workflows:
+  version: 2
+  main:
+    jobs:
+      - check-package
