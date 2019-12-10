@@ -1,6 +1,12 @@
 version: 2
 
 jobs:
+  build:
+    docker:
+      - image: circleci/node:13.3.0
+    steps:
+      - checkout
+      - run: npm ci --ignore-scripts
   check-package:
     docker:
       - image: circleci/node:13.3.0
@@ -13,4 +19,5 @@ workflows:
   version: 2
   main:
     jobs:
+      - build
       - check-package
