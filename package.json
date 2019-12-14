@@ -10,7 +10,7 @@
     "test": "package-ok"
   },
   "files": [
-    "index.js"
+    "eslintrc.json"
   ],
   "repository": {
     "type": "git",
