@@ -7,7 +7,7 @@ Eslint Sharable Config Boilerplate
 ## Get Started
 
 - Clone this repository
-`git clone https://github.com/maddhruv/eslint-config-boilerplate`
+  `git clone https://github.com/maddhruv/eslint-config-boilerplate`
 
 - Change `index.js` with your _eslint_ configuration and settings
 
@@ -30,3 +30,7 @@ extends: [
 ## Reference
 
 - [https://eslint.org/docs/developer-guide/shareable-configs](https://eslint.org/docs/developer-guide/shareable-configs)
+
+## Used at
+
+- [ClearTax/eslint-config](https://github.com/ClearTax/eslint-config)
