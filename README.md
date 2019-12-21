@@ -15,7 +15,7 @@ Eslint Sharable Config Boilerplate
 
 ## Usage
 
-Sharable Eslint Configs can be used by adding the config name to the `extends` property in esling-config.
+Sharable Eslint Configs can be used by adding the config name to the `extends` property in your eslint-config or eslintrc.
 
 ```js
 extends: [
