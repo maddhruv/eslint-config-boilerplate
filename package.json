@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-boilerplate",
   "version": "0.1.0",
-  "description": "Eslint Sharable Config Boilerplate",
+  "description": "Eslint Shareable Config Boilerplate",
   "main": "index.js",
   "engines": {
     "node": ">= 8"
@@ -21,7 +21,7 @@
     "eslintconfig",
     "boilerplate",
     "eslint-config",
-    "sharable-config",
+    "shareable-config",
     "eslint-boilerplate"
   ],
   "author": "Dhruv Jain <dhruvjainpenny@gmail.com>",
