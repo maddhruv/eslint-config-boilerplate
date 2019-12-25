@@ -2,7 +2,7 @@
   "name": "eslint-config-boilerplate",
   "version": "0.1.0",
   "description": "Eslint Shareable Config Boilerplate",
-  "main": "index.js",
+  "main": "eslintrc.json",
   "engines": {
     "node": ">= 8"
   },
